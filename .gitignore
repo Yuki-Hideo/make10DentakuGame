@@ -1,0 +1,20 @@
+# コンパイル済みOCamlファイル
+*.cmi
+*.cmo
+*.cmx
+*.o
+
+# 実行可能ファイル
+main
+
+# 生成されたパーサーとレキサーのファイル
+lexer.ml
+parser.ml
+parser.mli
+parser.output
+
+# 依存関係ファイル
+.depend
+
+# バックアップファイル
+*~
